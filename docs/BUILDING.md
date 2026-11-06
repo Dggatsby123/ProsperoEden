@@ -78,7 +78,7 @@ Downloads are cached in `~/.cache/prosperoeden-deps` (`PROSPEROEDEN_DEPS_CACHE`)
 
 Inside this repository, in `.deps/`:
 
-- **Eden** at commit `67bada77f8a43a90da2e94e89b8e7da73c256989` (GitHub mirror archive), with
+- **Lichii** (Eden fork, Switch 2 engine on branch `nx2`) at commit `55532f2d814215aaf32a76c214cf129f2cb6282b` = release build-88 (GitHub archive), with
   Eden's own hash-pinned packages, which its configure step downloads. The PS5 frontend in
   `headless/` replaces and derives sources at configure time (`headless/inject.cmake`). This
   fork also patches a few of Eden's files when `make prepare` extracts them

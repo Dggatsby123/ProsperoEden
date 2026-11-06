@@ -3,13 +3,13 @@
   "items": [
     {
       "name": "eden",
-      "about": "Eden emulator source at the pinned commit (GitHub mirror archive)",
+      "about": "Lichii (Eden fork with the Switch 2 engine, branch nx2) at the build-88 commit (GitHub archive)",
       "kind": "archive",
-      "url": "https://github.com/eden-emulator/mirror/archive/67bada77f8a43a90da2e94e89b8e7da73c256989.tar.gz",
-      "sha256": "d42b6fb492c65eb5e98ab72a786dff01fd64384d073a739b9c9ff475414366ee",
-      "save": ".deps/eden-67bada77.tar.gz",
+      "url": "https://github.com/zortos293/Lichii/archive/55532f2d814215aaf32a76c214cf129f2cb6282b.tar.gz",
+      "sha256": "f3ce86ad78fb4555cac2003310d345c488cd1eed68add873b442a189145b351f",
+      "save": ".deps/eden-55532f2.tar.gz",
       "extract": ".deps",
-      "creates": ".deps/mirror-67bada77f8a43a90da2e94e89b8e7da73c256989/CMakeLists.txt"
+      "creates": ".deps/Lichii-55532f2d814215aaf32a76c214cf129f2cb6282b/CMakeLists.txt"
     },
     {
       "name": "ffmpeg",

@@ -47,7 +47,7 @@ assert port.count("gc_count_visits.load(std::memory_order_relaxed)") == 2, \
 
 # 4. Against real Eden source when a checkout exists: each anchor the patch
 # relies on must match exactly once (configure fails on drift too).
-mirrors = sorted(glob.glob(str(root / ".deps/mirror-*/src/video_core/texture_cache/texture_cache.h")))
+mirrors = sorted(glob.glob(str(root / ".deps/*-*/src/video_core/texture_cache/texture_cache.h")))
 if not mirrors:
     print("check-gc-scan: SKIPPED pin-vs-source (no Eden texture_cache.h; structural checks passed)")
     sys.exit(0)
